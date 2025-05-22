@@ -2,18 +2,6 @@
 
 This project is a simple Spring Boot application exposing a REST endpoint to retrieve the current temperature for a location.
 
-## Building
-
-Use Maven to build the project:
-
-```bash
-mvn package
-```
-
-## Running
-
-```bash
-mvn spring-boot:run
 ```
 
 The service exposes `/getTemperature` expecting query parameters `lat` and `lon`.
